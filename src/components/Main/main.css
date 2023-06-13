@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+
+.home{
+    background-color: #222a36;
+    height: 70vh;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+
+}
+.domain{
+    font-weight: 300 !important;
+    color: #bdc1c7;
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 1.2rem !important;
+}
+
+.image{
+    position:relative;
+    
+}
+.name{
+    font-family: 'Sorts Mill Goudy', serif !important;
+    color: #fff;
+    font-size: 8rem !important;
+}
+.vertical-line{ 
+    border-left: 1px solid #fff;
+    height: 100%;
+    margin-left: 5vw;
+}
+.para{
+    margin-left: 5% !important;
+    font-family: 'Rubik', sans-serif !important;
+    color:#fff;
+}
+.icons{
+    margin-top: 6%;
+    margin-left: 5% !important;
+    color:#fff;
+    display: flex;
+    
+}
+
+.circle{
+    position: absolute;
+    bottom: 0vh;
+    right: 20.6vh;
+    z-index: -1;
+}
+.icon-link:hover svg {
+    transform: scale(1.2);
+  }
+  
